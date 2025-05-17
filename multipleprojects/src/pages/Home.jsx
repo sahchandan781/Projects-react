@@ -12,6 +12,9 @@ const Home = () => {
         <Link to={'/chipinput'}><button>Chips</button></Link>
         <Link to={'/diceroller'}><button>Dice Roller</button></Link>
         <Link to={'/passwordstrength'}><button>Password Strength</button></Link>
+        <Link to={'/mortage'}><button>Mortage Calculator</button></Link>
+        <Link to={'/recipefilter'}><button>Recipe filter</button></Link>
+        <Link to={'/tictactoe'}><button>Tic Tac Toe</button></Link>
     </div>
   )
 }

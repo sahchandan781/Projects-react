@@ -10,6 +10,10 @@ import ContactForm from "./Projects/ContactForm";
 import ChipsInput from "./Projects/ChipsInput";
 import DiceRoller from "./Projects/DiceRoller";
 import PasswordStrength from "./Projects/PasswordStrength";
+import MortageCalculator from "./Projects/MortageCalculator";
+import GuessTheNumber from "./Projects/GuessTheNumber";
+import RecipeFilterApp from "./Projects/RecipeFilterApp";
+import TicTacToe from "./Projects/TicTacToe";
 
 
 
@@ -26,6 +30,10 @@ export default function App() {
     <Route path="/chipinput" element={<ChipsInput/>} />
     <Route path="/diceroller" element={<DiceRoller/>} />
     <Route path="/passwordstrength" element={<PasswordStrength/>} />
+    <Route path="/mortage" element={<MortageCalculator/>} />
+    <Route path="/guessthenumber" element={<GuessTheNumber/>} />
+    <Route path="/recipefilter" element={<RecipeFilterApp/>} />
+    <Route path="/tictactoe" element={<TicTacToe/>} />
     
 
    </Routes>
